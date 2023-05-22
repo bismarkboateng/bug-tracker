@@ -1,6 +1,7 @@
 import { Login, Signup, ErrorPage } from "./components";
 import Dashboard from "./pages/Dashboard";
 import { Route, Routes } from "react-router-dom";
+import "./App.css";
 
 
 
