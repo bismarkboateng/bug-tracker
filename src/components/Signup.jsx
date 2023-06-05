@@ -5,9 +5,9 @@ import { Link } from "react-router-dom"
 const Signup = () => {
   return (
     <>
-      <h1 className="text-gray-500 text-3xl w-[5%] mx-auto mt-[20px]">Signup</h1>
+      <h1 className="text-gray-500 text-3xl w-[5%] mx-auto mt-[20px] text-blue-500 font-semibold">Signup</h1>
       <div
-      className="bg-white w-4/12 mx-auto mt-[90px]
+      className="bg-white w-4/12 mx-auto mt-[90px] border-2 border-gray-100 shadow-lg shadow-gray-350/50
         rounded-lg h-[400px] w-[640px]">
         <form className="py-[25px] pl-[65px] w-full">
 
