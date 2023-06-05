@@ -1,4 +1,5 @@
 import { Projects } from "../components";
+import { Statistics } from "../components";
 
 
 const MainBar = () => {
@@ -8,6 +9,7 @@ const MainBar = () => {
                 <h1 className="font-bold text-white text-2xl">DASHBOARD</h1>
             </div>
             <Projects />
+            <Statistics />
         </div>
     )
 }
