@@ -5,3 +5,5 @@ export { default as SideBar } from "./SideBar";
 export { default as MainBar } from "./MainBar";
 export { default as Projects } from "./Projects";
 export { default as Statistics } from "./Statistics";
+export { default as TicketPage } from "./TicketPage";
+export { default as Admin } from "./Admin";
