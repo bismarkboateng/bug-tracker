@@ -8,9 +8,7 @@ const Signup = () => {
       <h1 className="text-gray-500 text-3xl w-[5%] mx-auto mt-[20px]">Signup</h1>
       <div
       className="bg-white w-4/12 mx-auto mt-[90px]
-        rounded-lg h-[400px] w-[640px]
-      "
-      >
+        rounded-lg h-[400px] w-[640px]">
         <form className="py-[25px] pl-[65px] w-full">
 
           <div className="mb-5 flex">

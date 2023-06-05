@@ -1,7 +1,14 @@
+import { SideBar } from "../components";
+import { MainBar } from "../components";
+
+
+
+
 const Dashboard = () => {
   return (
-    <div>
-      Dashboard Page
+    <div className="flex flex-row">
+      <SideBar />
+      <MainBar />
     </div>
   )
 }
