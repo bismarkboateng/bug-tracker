@@ -8,7 +8,6 @@ const Projects = () => {
 
     function handleReportBug() {
         setModal(prevValue => !prevValue)
-        modal && <BugModal />
     }
 
     console.log(modal)
@@ -22,9 +21,8 @@ const Projects = () => {
             <div className="flex flex-row justify-between">
                 <h5 className="ml-4 py-3 text-xl" >Projects</h5>
                 <button className="bg-blue-500 text-white px-3 py-2 border-none outline-none rounded font-semibold
-                  mr-2 mt-2"
-                  onClick={handleReportBug}
-               >
+                  mr-2 mt-2" onClick={handleReportBug}
+                >
                     Report Bug
                 </button>
             </div>
@@ -44,6 +42,8 @@ const Projects = () => {
                     <td>False</td>
                 </tr>
             </table>
+
+            {!modal && <BugModal setModal={setModal} />}
         </div>
     )
 }

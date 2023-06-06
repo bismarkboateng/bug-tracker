@@ -38,9 +38,9 @@ const SideBar = ({ setSideClicks }) => {
             <img src={BugImage} alt="bug image" className="w-[80px] mb-10"/>
 
             <div className="flex flex-col gap-2 text-gray-500 mb-10">
-                <h5 className="mb-4 hover:font-semibold hover:text-lg" onClick={handleClickDashboard}>Dashboard</h5>
+                <h5 className="mb-4 hover:font-semibold hover:text-lg cursor-pointer" onClick={handleClickDashboard}>Dashboard</h5>
                 <h5 className="mb-4 hover:font-semibold hover:text-lg cursor-pointer" onClick={handleClickedTicket}>Tickets</h5>
-                <h5 className="mb-4 hover:font-semibold hover:text-lg" onClick={handleClickedAdmin}>Administration</h5>
+                <h5 className="mb-4 hover:font-semibold hover:text-lg cursor-pointer" onClick={handleClickedAdmin}>Administration</h5>
             </div>
             <div className="h-[0.5px] bg-gray-300 px-[121px] mb-5"/>
             <button className="outline-none border-none px-3 py-2 bg-red-500 text-white font-bold w-2/3
