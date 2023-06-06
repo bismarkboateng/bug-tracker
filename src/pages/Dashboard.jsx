@@ -6,13 +6,10 @@ import { Admin } from "../components";
 
 const Dashboard = () => {
   const [sideClicks, setSideClicks] = useState({
-    dashboard: false,
+    dashboard: true,
     tickets: false,
     admin: false
   })
-
-
-  console.log(sideClicks)
 
   return (
     <div className="flex flex-row">

@@ -7,3 +7,4 @@ export { default as Projects } from "./Projects";
 export { default as Statistics } from "./Statistics";
 export { default as TicketPage } from "./TicketPage";
 export { default as Admin } from "./Admin";
+export { default as BugModal } from "./BugModal";
