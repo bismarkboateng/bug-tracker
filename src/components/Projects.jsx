@@ -43,7 +43,7 @@ const Projects = () => {
                 </tr>
             </table>
 
-            {!modal && <BugModal setModal={setModal} />}
+            {modal && <BugModal setModal={setModal} />}
         </div>
     )
 }
