@@ -10,9 +10,10 @@ const Projects = () => {
         setModal(prevValue => !prevValue)
     }
 
-    console.log(modal)
-
-    // { modal && <BugModal />}
+    function handleShowProjectPage() {
+        // handle a modal with info about the bug
+        console.log("bug info")
+    }
     
     return (
         <div className="ml-4 mt-[-60px] z-[100] border-1 rounded w-[98%] h-[300px] shadow-lg shadow-gray-350/50
@@ -35,8 +36,10 @@ const Projects = () => {
                     <th>Contributors</th>
                     <th>Fixed</th>
                 </tr>
-                <tr className="border-b-2 border-gray-100 p-5">
-                    <td className="text-blue-400 font-bold">Bug Tracker</td>
+                <tr className="border-b-2 border-gray-100 p-5 hover:bg-blue-400 hover:text-white hover:cursor-pointer"
+                    onClick={handleShowProjectPage}
+                >
+                    <td className="text-white-400">Bug Tracker</td>
                     <td>A Project Management Tool</td>
                     <td>Bicode</td>
                     <td>False</td>

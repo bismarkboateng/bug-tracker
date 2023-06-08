@@ -6,7 +6,7 @@ const labelClass = "font-semibold mt-5 text-white mb-5"
 
 
 
-const BugModal = ({ setModal }) => {
+const ProjectDetail = () => {
     const [bugInfo, setBugInfo] = useState({
         ProjectName: "",
         Description: "",
@@ -59,8 +59,8 @@ const BugModal = ({ setModal }) => {
                 </button>
             </form>
         </div>,
-        document.getElementById("bug-modal")
+        document.getElementById("bug-detail")
     )
 }
 
-export default BugModal;
+export default ProjectDetail;
