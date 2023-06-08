@@ -43,12 +43,21 @@ const ProjectDetail = () => {
                         setBugInfo((prevState) => ({...prevState, Description: event.target.value}))
                     }}
                 /> <br />
-                <label className={labelClass} >Dev Id: </label> <br />
+                <label className={labelClass} >Contributors: </label> <br />
                 <input
                     className={inputClass}
-                    placeholder="Dev Id"
+                    placeholder="Contributors"
                     onChange={(event) => {
-                        setBugInfo((prevState) => ({...prevState, DevId: Number(event.target.value)}))
+                        setBugInfo((prevState) => ({...prevState, Description: event.target.value}))
+                    }}
+                /> <br />
+                <label className={labelClass} >Status: </label> <br />
+                <input
+                    className={inputClass}
+                    type="radio"
+                    placeholder="Description"
+                    onChange={(event) => {
+                        setBugInfo((prevState) => ({...prevState, Description: event.target.value}))
                     }}
                 /> <br />
                 <button className="outline-none border-none text-white font-semibold px-10 py-2 rounded bg-blue-500
