@@ -1,6 +1,6 @@
 <h3>This is an <a href="https://appwrite.io/">Appwrite</a> Hackathon challenge</h3>
 <br />
-<img src="bug_tracker.png" alt="bug tracker" />
+<img src="bug-tracker.png" style="width:100%" alt="bug tracker" />
 <h3 style="color: blue">Description</h3>
 Bug tracker is a tool that is used within an organizaton to keep track of bugs related to  <br />
 their project project
