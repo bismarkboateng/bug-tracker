@@ -9,9 +9,12 @@ their project project
 Start by cloning the repo: <br />
 
 ```
-git clone https://github.com/bismarkboateng/bug-tracker.git <br />
-npm run dev  ( to run local development server <br />
-https://localhost:5173 ( copy paste into your browser )
+git clone https://github.com/bismarkboateng/bug-tracker.git
+npm run dev
 ```
+<br />
+open <a href="http:localhost:5173">http:localhost:5173</a> with your browser to see result
+you can start editing the page by modifying ```src/app.jsx```. The page auto updates as you edit the file
+this project uses vite as it's build tool
 <br />
 NB: the port may change, After the second command, copy and paste the url into your browser
