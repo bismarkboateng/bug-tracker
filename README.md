@@ -11,6 +11,7 @@ Start by cloning the repo: <br />
 
 ```
 git clone https://github.com/bismarkboateng/bug-tracker.git
+npm install
 npm run dev
 ```
 <br />
