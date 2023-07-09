@@ -1,18 +1,18 @@
 import { useState } from "react";
 import { BugModal } from "../components";
-
+import { BugInfo } from "../components"
 
 const Projects = () => {
 
     const [modal, setModal] = useState(false);
+    const [bugInfo, setBugInfo] = useState(false);
 
     function handleReportBug() {
         setModal(prevValue => !prevValue)
     }
 
     function handleShowProjectPage() {
-        // handle a modal with info about the bug
-        console.log("bug info")
+        setBugInfo(prevValue => !prevValue)
     }
     
     return (
@@ -41,12 +41,13 @@ const Projects = () => {
                 >
                     <td className="text-white-400">Bug Tracker</td>
                     <td>A Project Management Tool</td>
-                    <td>Bicode</td>
+                    <td>Biscode</td>
                     <td>False</td>
                 </tr>
             </table>
 
             {modal && <BugModal setModal={setModal} />}
+            {bugInfo && <BugInfo setBugInfo={setBugInfo} />}
         </div>
     )
 }
